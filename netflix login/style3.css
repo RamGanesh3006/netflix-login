@@ -1,0 +1,71 @@
+.netlogo{
+    width: 200px;
+    height: 70px;
+}
+body{
+    background: url(/CSS/media/netback.jpg);
+    background-size: 1000px 800px;
+}
+.box{
+    width: 400px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 400px;
+    background-color:rgba(0, 0, 0, 0.763) ;
+    color: aliceblue;
+    height: 600px;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.head h2{
+    font-size: 2.5em;
+}
+.email,.pass{
+    width: 320px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.783);
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    margin-top: -5px;
+    margin-bottom: 35px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.612);
+}
+button{
+    width: 340px;
+    height: 50px;
+    font-size: 1.2em;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 7px;
+    background-color: red;
+    color: white;
+}
+.btn{
+    padding-top: 5px;
+}
+.ank {
+    margin-left: 250px;
+    margin-top:-18px;
+    color:gray ;
+    margin-bottom: 70px;
+}
+a,.check{color: gray;
+padding-top: 5px;
+}
+.create{color: gray;}
+
+.sign {
+    color: white;
+    margin-left: 120px;
+    margin-top: -20px;
+    
+}
+.cap{
+    margin-top: 30px;
+}
